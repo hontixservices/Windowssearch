@@ -1,0 +1,1 @@
+Set-NetOffloadGlobalSetting -Chimney Disabled
