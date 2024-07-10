@@ -1,0 +1,30 @@
+@echo off
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v HostsPriority t REG_DWORD d 2 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v HungAppTimeout t REG_SZ d 1000 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v LocalPriority t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v LowLevelHooksTimeout t REG_SZ d 1000 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NetbtPriority t REG_DWORD d 4 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NoInternetOpenWith t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NoLowDiskSpaceChecks t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NonBestEffortLimit t REG_DWORD d 0 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NonBestEffortLimit t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v NoResolveSearch t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v SynAttackProtect t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v TcpCreateAndConnectTcbRateLimitDepth t REG_DWORD d 0 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v TcPMaxDataRetransmissions t REG_DWORD d 5 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v TcpNumConnections t REG_DWORD d 1280 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v TcpTimedWaitDelay t REG_DWORD d 25 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v WaitToKillAppTimeout t REG_SZ d 2000 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPsched v MaxWorkItems t REG_DWORD d 8192 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPsched v NonBestEffortLimit t REG_DWORD d 0 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v AutoEndTasks t REG_SZ d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v DisableTaskOffload t REG_DWORD d 0 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v DnsPriority t REG_DWORD d 3 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v EnableConnectionRateLimiting t REG_DWORD d 0 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v EnableDCA t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPshed v EnableWsd t REG_DWORD d 0 f
+    Reg.exe add HKLMSoftwarePoliciesMicrosoftWindowsPsched v MaxOutstandingSends t REG_DWORD d 0 f
+    Reg.exe add HKLMSoftwarePoliciesMicrosoftWindowsPsched v NonBestEffortLimit t REG_DWORD d 0 f
+    Reg.exe add HKLMSoftwarePoliciesMicrosoftWindowsPsched v TimerResolution t REG_DWORD d 1 f
+    Reg.exe add HKLMSystemCurrentControlSetServicesPsched v MaxCmds t REG_DWORD d 2048 f

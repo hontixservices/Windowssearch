@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"RmBug4195098MsRppg"=dword:00000001
+"RmFbsrPagedDMA"=dword:00000001
+"RMCtxswLog"=dword:00000003
+"RMElcg"=dword:55555555
+"RMBlcg"=dword:01111111
+"RMElpg"=dword:00000fff
+"RMSlcg"=dword:0003ffff
+"RMFspg"=dword:0000000f
+"RMPowerFeature"=dword:55555555
+"RMPowerFeature2"=dword:55555555
+"RmCacheLoc"=dword:00000000
+"RmDisableInst2Sys"=dword:00000001
